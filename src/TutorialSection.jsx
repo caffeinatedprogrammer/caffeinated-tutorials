@@ -1,9 +1,12 @@
 import React from "react";
 import tutorials from "./tutorials/index";
 
+import { useHistory } from "react-router-dom";
+
 import "./TutorialSection.less";
 
 const TutorialSection = () => {
+    const history = useHistory();
     return (
         <div className="tutorial-list">
             {Object.entries(tutorials.list).map(([key, { title, description }]) => (

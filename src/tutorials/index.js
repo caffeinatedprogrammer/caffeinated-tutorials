@@ -1,8 +1,11 @@
+import { readFileSync } from "fs";
+
 export default {
     list: {
-        "intro.md": {
+        "intro": {
             title: "Introduction",
-            description: "Introduction to Caffeinated Tutorials"
+            description: "Introduction to Caffeinated Tutorials",
+            content: readFileSync(__dirname + "/intro.md", "utf-8")
         }
     }
 }

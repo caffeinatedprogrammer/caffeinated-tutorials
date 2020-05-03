@@ -14,5 +14,20 @@ body {
 p {
     font-family: "Fira Sans";
     margin: 8px;
+    line-height: 1.35;
     color: #a74046;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left {
+    text-align: left;
+}
+
+[aria-hidden=true] {
+    display: none;
 }

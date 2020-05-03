@@ -1,6 +1,7 @@
 .banner {
     width: 100%;
     height: 150px;
+    min-height: 150px;
     background-color: #efa7ae;
     font-family: "Fira Mono";
     font-size: 40px;
