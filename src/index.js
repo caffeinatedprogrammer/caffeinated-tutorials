@@ -8,7 +8,11 @@ import TutorialPage from "./TutorialPage";
 
 const App = () => {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename={
+            process.env.NODE_ENV === 'development' ?
+                "/" :
+                "/caffeinated-tutorials"
+        }>
             <Switch>
                 <Route exact path="/">
                     <Welcome />
