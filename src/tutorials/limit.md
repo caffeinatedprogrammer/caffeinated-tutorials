@@ -64,7 +64,7 @@ By definition, given any $\epsilon > 0$, we have
 - $\exists N_1 \in \mathbb{N}$ s.t. $|a_n-l|<\frac{\epsilon}{2} \, \forall n > N_1$
 - $\exists N_2 \in \mathbb{N}$ s.t. $|a_n-k|<\frac{\epsilon}{2} \, \forall n > N_2$
 
-Now let $N=\max{N_1, N_2}$. We have
+Now let $N=\max{\{N_1, N_2\}}$. We have
 - $|a_n-l|+|a_n-k|<\epsilon \, \forall n > N$
 
 By triangle inequality we have
