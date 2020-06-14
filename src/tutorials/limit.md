@@ -34,7 +34,7 @@ Suppose ${\{a_n\}}_{n=1}^{\infty}$ is a sequence of real numbers.
 
 We say it converges to $l$ if
 
-$\forall \epsilon > 0, \exists N \in \mathbb{N}$ s.t. $|a_n - l| < \epsilon \,\forall n > N$.
+$$\forall \epsilon > 0, \exists N \in \mathbb{N} \, \text{s.t.} \, |a_n - l| < \epsilon \,\forall n > N$$
 
 It is like saying that if $n$ is very large, say, larger than $N$, then $a_n$ will be very close to $l$.
 
