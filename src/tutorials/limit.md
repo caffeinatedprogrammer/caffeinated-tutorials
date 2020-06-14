@@ -34,7 +34,7 @@ Suppose ${\{a_n\}}_{n=1}^{\infty}$ is a sequence of real numbers.
 
 We say it converges to $l$ if
 
-$$\forall \epsilon > 0, \exists N \in \mathbb{N} \, \text{s.t.} \, |a_n - l| < \epsilon \,\forall n > N$$
+$$\forall \epsilon > 0, \exists N \in \mathbb{N} \, \text{s.t.} \, |a_n - l| < \epsilon \,\forall n \ge N$$
 
 It is like saying that if $n$ is very large, say, larger than $N$, then $a_n$ will be very close to $l$.
 
@@ -61,14 +61,14 @@ Suppose $a_n$ converges to $l$ and $k$, then $l=k$.
 
 ## Proof
 By definition, given any $\epsilon > 0$, we have
-- $\exists N_1 \in \mathbb{N}$ s.t. $|a_n-l|<\frac{\epsilon}{2} \, \forall n > N_1$
-- $\exists N_2 \in \mathbb{N}$ s.t. $|a_n-k|<\frac{\epsilon}{2} \, \forall n > N_2$
+- $\exists N_1 \in \mathbb{N}$ s.t. $|a_n-l|<\frac{\epsilon}{2} \, \forall n \ge N_1$
+- $\exists N_2 \in \mathbb{N}$ s.t. $|a_n-k|<\frac{\epsilon}{2} \, \forall n \ge N_2$
 
 Now let $N=\max{\{N_1, N_2\}}$. We have
 - $|a_n-l|+|a_n-k|<\epsilon \, \forall n > N$
 
 By triangle inequality we have
-- $|l-k| \le |l-a_n|+|a_n-k| = |a_n-l|+|a_n-k| < \epsilon \, \forall n > N$
+- $|l-k| \le |l-a_n|+|a_n-k| = |a_n-l|+|a_n-k| < \epsilon \, \forall n \ge N$
 
 Be lemma we have $l=k$.
 
