@@ -8,10 +8,10 @@ const TutorialItem = ({path, title, description, onClick}) => {
         onClick(event, path);
     }, [onClick, path]);
     return (
-        <div onClick={handleClick} className="tutorial-item">
+        <a onClick={handleClick} className="tutorial-item">
             <p className="tutorial-item-title">{title}</p>
             <p className="tutorial-item-description">{description}</p>
-        </div>
+        </a>
     )
 }
 
