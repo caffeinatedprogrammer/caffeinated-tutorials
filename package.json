@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "fs": "^0.0.1-security",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-katex": "^2.0.3",
     "react": ">=15",
     "react-dom": "^16.13.1",
